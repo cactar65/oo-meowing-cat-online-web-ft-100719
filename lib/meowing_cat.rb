@@ -2,6 +2,7 @@
 
 class Cat
   
-  attr_accessible
+  attr_reader :name
+  attr_writer :name
   
 end
