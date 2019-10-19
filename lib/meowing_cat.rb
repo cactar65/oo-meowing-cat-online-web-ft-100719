@@ -2,6 +2,7 @@
 
 class Cat
   
-  attr_ :name
+  attr_accessor :name
+  attr_accessor :meow
   
 end
